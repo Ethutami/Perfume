@@ -12,11 +12,15 @@ export default function Home() {
             <span className="text-3xl font-bold mr-3" style={{color: '#3D8168'}}>$149.99</span>
             <p className="line-through" style={{color: '#6C7289'}}>$169.99</p>
           </div>
-          <div className="flex flex-row rounded-lg p-2 justify-center" style={{backgroundColor: '#3D8168'}}>
+          <button 
+            className="flex flex-row rounded-lg p-2 justify-center cart-button " 
+          >
             <Image className="mr-3" src="/Cart.png" alt="" width={16} height={16}/>
-            <p>Add to Cart</p>
-          </div>
+            <p className="font-semibold" style={{color: '#FFFFFF'}}>Add to Cart</p>
+          </button>
       </div>
     </div>
   );
 }
+
+

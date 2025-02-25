@@ -19,3 +19,11 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+.cart-button {
+  background-color: #3D8168;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: #304c43;
+}
